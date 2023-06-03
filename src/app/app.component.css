@@ -1,0 +1,33 @@
+/* Set the font size and color of the select label */
+.mat-form-field-label {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Set the font size and color of the selected option */
+.mat-select-value-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Set the background color of the select */
+.mat-select-trigger {
+  background-color: #f2f2f2;
+}
+
+/* Set the hover and focus color of the select */
+.mat-select-trigger:hover, .mat-select-trigger:focus {
+  background-color: #e6e6e6;
+  outline: none;
+}
+
+/* Set the font size and color of the select options */
+.mat-option {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Set the hover and focus color of the select options */
+.mat-option:hover, .mat-option:focus {
+  background-color: #e6e6e6;
+}
