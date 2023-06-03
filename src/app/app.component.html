@@ -1,0 +1,17 @@
+<h1>hello SVG icon</h1>
+
+<div>
+  <mat-form-field>
+    <mat-label>Select a field type</mat-label>
+    <mat-select [(ngModel)]="field">
+      <mat-select-trigger>
+        <mat-icon svgIcon="{{field.value}}"></mat-icon>
+        &nbsp;{{field.viewValue}}
+      </mat-select-trigger>
+      <mat-option *ngFor="let item of allFieldTypes" [value]="item">
+        <mat-icon class="material-icons" svgIcon="{{item.value}}"></mat-icon>
+        {{item.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
